@@ -20,7 +20,7 @@ Before playing Pokémon Battle Arena, ensure you have the following installed:
    - **For IntelliJ IDEA:** [Follow this guide](https://openjfx.io/openjfx-docs/)
 3. Clone the repository to your local machine:
    ```bash
-   git clone https://gitlab.com/your-username/pokemon-battle-arena.git
+   git clone https://github.com/Mepiyou/Pokemon
    ```
 
 ## Launching the Game
