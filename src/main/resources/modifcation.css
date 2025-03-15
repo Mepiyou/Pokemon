@@ -1,0 +1,90 @@
+/* General Styles */
+* {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Root Background */
+.root-background {
+    -fx-background-image: url("asset/gif/home-background.gif");/* Labels */
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 5px;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 5px 10px;
+    -fx-border-radius: 3px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 3, 0, 0, 1);
+    -fx-cursor: hand;
+    -fx-transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    -fx-background-color: #f44336;
+}
+
+/* ListView */
+.list-view {
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+    -fx-cell-size: 60px;
+}
+
+.list-cell {
+    -fx-padding: 10px;
+    -fx-alignment: center-left;
+    -fx-border-color: #ddd;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.list-cell:hover {
+    -fx-background-color: #e6f7ff;
+}
+
+/* HBox and VBox */
+.hbox, .vbox {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+    -fx-padding: 10px;
+}
+
+/* Pokémon Box */
+.pokemon-box {
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+    -fx-padding: 5px;
+}
+
+/* Detail Box */
+.detail-box {
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Transparent background */
+    -fx-padding: 10px;
+}
+
+
+
+.label-texte {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black; /* Text color to white */
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-padding: 5px;
+}

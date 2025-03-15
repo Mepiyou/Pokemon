@@ -1,0 +1,71 @@
+Name,Damage,AvailableTo
+Thunderbolt,90,Pikachu
+Flamethrower,95,Pikachu
+Hydro Pump,110,Pikachu
+Quick Attack,40,Pikachu
+Iron Tail,100,Pikachu
+Electro Ball,90,Pikachu
+Volt Tackle,120,Pikachu
+Solar Beam,120,Zapdos
+Thunder,110,Zapdos
+Drill Peck,80,Zapdos
+Heat Wave,95,Zapdos
+Ancient Power,60,Zapdos
+Sky Attack,140,Zapdos
+Roost,0,Zapdos
+Leaf Storm,130,Wormadam
+Sludge Bomb,90,Wormadam
+Energy Ball,90,Wormadam
+Giga Drain,75,Wormadam
+Poison Jab,80,Wormadam
+Solar Beam,120,Wormadam
+Toxic,0,Wormadam
+Hydro Pump,110,Zerkom
+Surf,90,Zerkom
+Waterfall,80,Zerkom
+Aqua Tail,90,Zerkom
+Scald,80,Zerkom
+Ice Beam,90,Zerkom
+Blizzard,110,Zerkom
+Hydro Pump,110,Turtwing
+Surf,90,Turtwing
+Waterfall,80,Turtwing
+Aqua Tail,90,Turtwing
+Scald,80,Turtwing
+Ice Beam,90,Turtwing
+Blizzard,110,Turtwing
+Hydro Pump,110,Tyranitar
+Surf,90,Tyranitar
+Waterfall,80,Tyranitar
+Aqua Tail,90,Tyranitar
+Scald,80,Tyranitar
+Ice Beam,90,Tyranitar
+Blizzard,110,Tyranitar
+Hydro Pump,110,Snover
+Surf,90,Snover
+Waterfall,80,Snover
+Aqua Tail,90,Snover
+Scald,80,Snover
+Ice Beam,90,Snover
+Blizzard,110,Snover
+Hydro Pump,110,Sizzlipede
+Surf,90,Sizzlipede
+Waterfall,80,Sizzlipede
+Aqua Tail,90,Sizzlipede
+Scald,80,Sizzlipede
+Ice Beam,90,Sizzlipede
+Blizzard,110,Sizzlipede
+Hydro Pump,110,Shellos
+Surf,90,Shellos
+Waterfall,80,Shellos
+Aqua Tail,90,Shellos
+Scald,80,Shellos
+Ice Beam,90,Shellos
+Blizzard,110,Shellos
+Hydro Pump,110,Poochyena
+Surf,90,Poochyena
+Waterfall,80,Poochyena
+Aqua Tail,90,Poochyena
+Scald,80,Poochyena
+Ice Beam,90,Poochyena
+Blizzard,110,Poochyena

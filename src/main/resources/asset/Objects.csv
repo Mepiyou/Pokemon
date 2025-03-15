@@ -1,0 +1,6 @@
+name,description,type
+Restes,Restore 8% of HP at the end of each turn,RESTES
+AguavBerry,Effect: Restores 1/3 max HP at 1/4 max HP or less,AguavBerry
+Lunette de soleil,Increases the power of Dark-type moves by 1.2x,LUNETTE_DE_SOLEIL
+Potion,Heals 20 HP when HP drops below 50%,POTION
+Berry,Heals 10 HP when HP drops below 25%,BERRY

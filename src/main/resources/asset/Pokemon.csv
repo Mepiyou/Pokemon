@@ -1,0 +1,11 @@
+id,name,hp,attack,defense,speed,specialAttack,specialDefense,charImg,type
+1,Pikachu,1000,55,40,90,50,50,https://play.pokemonshowdown.com/sprites/ani/pikachu-cosplay.gif,Electric
+2,Zapdos,1000,52,43,65,60,50,https://i.gifer.com/3nRA.gif,Fire
+3,Wormadam,1000,49,49,45,65,65,https://play.pokemonshowdown.com/sprites/ani/wormadam-trash.gif,Grass;Poison
+4,Zerkom,1000,48,65,43,50,64,https://play.pokemonshowdown.com/sprites/ani/zekrom.gif,Water
+5,Turtwing,1000,48,65,43,50,64,https://play.pokemonshowdown.com/sprites/ani/turtwig.gif,Water
+6,Tyranitar,1000,48,65,43,50,64,https://play.pokemonshowdown.com/sprites/ani/tyranitar.gif,Water
+7,Snover,1000,48,65,43,50,64,https://play.pokemonshowdown.com/sprites/ani/snover.gif,Water
+8,Sizzlipede,1000,48,65,43,50,64,https://play.pokemonshowdown.com/sprites/ani/sizzlipede.gif,Water
+9,Shellos,1000,48,65,43,50,64,https://play.pokemonshowdown.com/sprites/ani/shellos-east.gif,Water
+10,Poochyena,1000,48,65,43,50,64,https://play.pokemonshowdown.com/sprites/ani/poochyena.gif,Water

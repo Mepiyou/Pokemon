@@ -1,0 +1,356 @@
+/*
+
+
+*/
+/* General Styles *//*
+
+* {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-font-size: 14px;
+}
+
+*/
+/* Labels *//*
+
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 5px;
+}
+
+*/
+/* TableView *//*
+
+.table-view {
+    -fx-background-color: #f8f8f8;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-cell-size: 40px;
+}
+
+.table-column {
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+}
+
+.table-view .table-column .image-view {
+    -fx-fit-height: 50px;
+    -fx-fit-width: 50px;
+}
+
+*/
+/* Buttons *//*
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 2);
+    -fx-cursor: hand;
+    -fx-transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    -fx-background-color: #f44336;
+}
+
+.button-start, .back-button, .start-battle-button, .add-button, .delete-button, .save-button, .back-button-custom, .arrow-button, .add-attack-button, .attack-button, .special-attack-button, .switch-button, .back-button-combat-screen {
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 18px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 2);
+}
+
+.button-start:hover, .back-button:hover, .start-battle-button:hover, .add-button:hover, .delete-button:hover, .save-button:hover, .back-button-custom:hover, .arrow-button:hover, .add-attack-button:hover, .attack-button:hover, .special-attack-button:hover, .switch-button:hover, .back-button-combat-screen:hover {
+    -fx-background-color: #f44336;
+}
+
+*/
+/* Backgrounds *//*
+
+.root-background-start, .root-background-selection-screen, .root-background-pokemon-custom, .background-combat-root {
+    -fx-background-image: url("asset/gif/home-background.gif");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+*/
+/* Titles *//*
+
+.title-start, .title-team-selection, .title-custom-attack, .switch-title {
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 24px;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 2);
+}
+
+*/
+/* Lists *//*
+
+.pokemon-list-view, .selected-pokemon-list-view {
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 20px;
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+}
+
+.list-view {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+    -fx-cell-size: 60px;
+}
+
+.list-cell {
+    -fx-padding: 10px;
+    -fx-alignment: center-left;
+    -fx-border-color: #ddd;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.list-cell:hover {
+    -fx-background-color: #e6f7ff;
+}
+
+*/
+/* HP Bars *//*
+
+.hp-bar {
+    -fx-accent: #51e700;
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-padding: 1em;
+}
+
+*/
+/* Combat Log *//*
+
+.combat-log {
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 10px;
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #333333;
+    -fx-border-width: 2px;
+    -fx-border-radius: 1px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 2);
+}
+
+*/
+/* Credits *//*
+
+.credits-start {
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 12px;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 2);
+}
+
+*/
+/* Combat Screen *//*
+
+.background-combat-root {
+    -fx-background-image: url("path/to/combat-background.jpg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.computer-pokemon-label, .player-pokemon-label {
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 18px;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 5, 0, 0, 2);
+}
+
+.attack-button, .special-attack-button, .switch-button, .back-button-combat-screen {
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 16px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 2);
+}
+
+.attack-button:hover, .special-attack-button:hover, .switch-button:hover, .back-button-combat-screen:hover {
+    -fx-background-color: #f44336;
+}
+
+.pokemon-display-screen {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+}
+
+*/
+/* HBox and VBox *//*
+
+.hbox {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.vbox {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+*/
+/* Alerts *//*
+
+.alert {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+*/
+/* Scene Background *//*
+
+.root {
+    -fx-background-color: #e8f4f8;
+}
+
+*/
+/* Spacing *//*
+
+.spacing {
+    -fx-spacing: 10px;
+}
+
+*/
+/* Image *//*
+
+.image-view {
+    -fx-fit-width: 50px;
+    -fx-fit-height: 50px;
+}
+
+*/
+/* TableView HP Column *//*
+
+.table-column-cell .text {
+    -fx-text-fill: #2196F3;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-alignment: center;
+}
+
+.table-view .cell:has-text('HP') {
+    -fx-text-fill: #f44336;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-alignment: center;
+}
+
+.list-view .list-cell .text {
+    -fx-text-fill: #2196F3;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}*/
+
+
+/* General Styles */
+* {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Root Background */
+.root-background {
+    -fx-background-image: url("asset/gif/home-background.gif");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 5px;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 12px; /* Reduced font size */
+    -fx-padding: 5px 10px; /* Reduced padding */
+    -fx-border-radius: 3px; /* Reduced border radius */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 3, 0, 0, 1); /* Reduced shadow effect */
+    -fx-cursor: hand;
+    -fx-transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    -fx-background-color: #f44336;
+}
+
+/* ListView */
+
+.team-list{
+      -fx-background-color: rgba(255, 255, 255, 0.5);
+      }
+
+
+
+
+.list-view {
+     -fx-background-color: rgba(255, 255, 255, 0.5);
+    -fx-border-color: #ddd;
+    -fx-border-width: 1px;
+    -fx-cell-size: 60px;
+}
+
+.list-cell {
+    -fx-padding: 10px;
+    -fx-alignment: center-left;
+    -fx-border-color: #ddd;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.list-cell:hover {
+    -fx-background-color: #e6f7ff;
+}
+
+/* HBox and VBox */
+.hbox {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+.vbox {
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+/* Pokémon Box */
+.pokemon-box {
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Set background to semi-transparent */
+    -fx-padding: 5px;
+}
+
+/* Detail Box */
+.detail-box {
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-background-color: rgba(255, 255, 255, 0.5); /* Set background to semi-transparent */
+    -fx-padding: 10px;
+}
+
